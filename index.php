@@ -11,6 +11,7 @@
             $operasi=$_POST['operasi'];
         
             switch ($operasi) {
+       
                 case 'kurang' :
                 $hasil = $bil1-$bil2;
                 break;
