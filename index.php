@@ -11,9 +11,6 @@
             $operasi=$_POST['operasi'];
         
             switch ($operasi) {
-                case 'tambah':
-                $hasil = $bil1+$bil2;
-                break;
                 case 'bagi' :
                 $hasil = $bil1/$bil2;
                 break;
@@ -29,7 +26,6 @@
             <input type="text" name="bil1" class="bil" placeholder="Bilangan 1" required/>
             <input type="text" name="bil2" class="bil" placeholder="Bilangan 2" required/>
             <select class="opt" name="operasi">
-                <option value="tambah">+</option>
                 <option value="bagi">/</option>
                 <option value="kali">x</option>
             </select>
